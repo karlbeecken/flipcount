@@ -4,30 +4,32 @@ let rp = 100
 let lp = 0
 let sum = 0
 
-function doc_keyUp (e) {
+function docKeyUp (e) {
   if (e.keyCode === 40) {
-    clickleft()
+    clickLeft()
   } else if (e.keyCode === 38) {
-    clickright()
+    clickRight()
+  } else if (e.keyCode === 39) {
+    getSum()
   }
 }
-document.addEventListener('keyup', doc_keyUp, false)
+document.addEventListener('keyup', docKeyUp, false)
 
-function clickleft () {
+function clickLeft () {
   l = l + 1
   sum = l + r
   document.getElementById('left').innerText = l
   document.getElementById('sum').innerText = sum
 }
 
-function clickright () {
+function clickRight () {
   r = r + 1
   sum = r + l
   document.getElementById('right').innerText = r
   document.getElementById('sum').innerText = sum
 }
 
-function getsum () {
+function getSum () {
   lp = l / sum * 100
   rp = r / sum * 100
   alert('Rücken: ' + l + ' (' + lp + '%)\nUnten: ' + r + ' (' + rp + '%)\nInsgesamt: ' + sum)
