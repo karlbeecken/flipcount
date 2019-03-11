@@ -6,9 +6,9 @@ let sum = 0;
 
 function doc_keyUp(e) {
 
-    if (e.keyCode == 40) {
+    if (e.keyCode === 40) {
         clickleft();
-    } else if (e.keyCode == 38) {
+    } else if (e.keyCode === 38) {
         clickright();
     }
 }
@@ -32,6 +32,7 @@ function clickright() {
 function getsum() {
     lp = l / sum * 100;
     rp = r / sum * 100;
-    alert('Rücken: ' + l + ' (' + lp + '%)\nUnten: '+ r + ' (' + rp + '%)\nInsgesamt: ' + sum)
+    alert('Rücken: ' + l + ' (' + lp + '%)\nUnten: '+ r + ' (' + rp + '%)\nInsgesamt: ' + sum);
+    console.log('Rücken: ' + l + ' (' + lp + '%)\nUnten: '+ r + ' (' + rp + '%)\nInsgesamt: ' + sum)
 }
 
