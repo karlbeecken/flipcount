@@ -32,6 +32,6 @@ function clickRight () {
 function getSum () {
   lp = l / sum * 100
   rp = r / sum * 100
-  alert('Rücken: ' + l + ' (' + lp + '%)\nUnten: ' + r + ' (' + rp + '%)\nInsgesamt: ' + sum)
   console.log('Rücken: ' + l + ' (' + lp + '%)\nUnten: ' + r + ' (' + rp + '%)\nInsgesamt: ' + sum)
+  alert('Rücken: ' + l + ' (' + lp + '%)\nUnten: ' + r + ' (' + rp + '%)\nInsgesamt: ' + sum)
 }
