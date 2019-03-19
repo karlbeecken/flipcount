@@ -70,6 +70,7 @@ function click6 () {
 }
 
 function getSum () {
+  sum = one + two + three + four + five + six
   p1 = one / sum * 100
   p2 = two / sum * 100
   p3 = three / sum * 100
