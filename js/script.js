@@ -13,17 +13,17 @@ let p6 = 0
 let sum = 0
 
 function docKeyUp (e) {
-  if (e.keyCode === 49) {
+  if (e.keyCode === 49 || e.keyCode === 97) {
     click1()
-  } else if (e.keyCode === 50) {
+  } else if (e.keyCode === 50 || e.keyCode === 98) {
     click2()
-  } else if (e.keyCode === 51) {
+  } else if (e.keyCode === 51 || e.keyCode === 99) {
     click3()
-  } else if (e.keyCode === 52) {
+  } else if (e.keyCode === 52 || e.keyCode === 100) {
     click4()
-  } else if (e.keyCode === 53) {
+  } else if (e.keyCode === 53 || e.keyCode === 101) {
     click5()
-  } else if (e.keyCode === 54) {
+  } else if (e.keyCode === 54 || e.keyCode === 102) {
     click6()
   } else if (e.keyCode === 13) {
     getSum()
