@@ -100,12 +100,18 @@ function getSum () {
 }
 
 function save () {
-  document.getElementById('1').value - 1 = one
-  document.getElementById('2').value - 1 = two
-  document.getElementById('3').value - 1 = three
-  document.getElementById('4').value - 1 = four
-  document.getElementById('5').value - 1 = five
-  document.getElementById('6').value - 1 = six
+  one = document.getElementById('1').value
+  two = document.getElementById('2').value
+  three = document.getElementById('3').value
+  four = document.getElementById('4').value
+  five = document.getElementById('5').value
+  six = document.getElementById('6').value
+  one--
+  two--
+  three--
+  four--
+  five--
+  six--
   submit1()
   submit2()
   submit3()
