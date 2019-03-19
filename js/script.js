@@ -13,14 +13,21 @@ let p6 = 0
 let sum = 0
 
 function docKeyUp (e) {
-  if (e.keyCode === 40) {
-    clickLeft()
-  } else if (e.keyCode === 38) {
-    clickRight()
-  } else if (e.keyCode === 39) {
+  if (e.keyCode === 49) {
+    click1()
+  } else if (e.keyCode === 50) {
+    click2()
+  } else if (e.keyCode === 51) {
+    click3()
+  } else if (e.keyCode === 52) {
+    click4()
+  } else if (e.keyCode === 53) {
+    click5()
+  } else if (e.keyCode === 54) {
+    click6()
+  } else if (e.keyCode === 13) {
     getSum()
-  }
-}
+ }
 document.addEventListener('keyup', docKeyUp, false)
 
 function click1 () {
