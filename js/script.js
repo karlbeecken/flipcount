@@ -98,3 +98,18 @@ function getSum () {
 5: ${five} (${p5} %)
 6: ${six} (${p6} %)`)
 }
+
+function save () {
+  document.getElementById('1').value - 1 = one
+  document.getElementById('2').value - 1 = two
+  document.getElementById('3').value - 1 = three
+  document.getElementById('4').value - 1 = four
+  document.getElementById('5').value - 1 = five
+  document.getElementById('6').value - 1 = six
+  submit1()
+  submit2()
+  submit3()
+  submit4()
+  submit5()
+  submit6()
+}
