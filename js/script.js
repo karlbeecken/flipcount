@@ -112,10 +112,10 @@ function save () {
   four--
   five--
   six--
-  submit1()
-  submit2()
-  submit3()
-  submit4()
-  submit5()
-  submit6()
+  click1()
+  click2()
+  click3()
+  click4()
+  click5()
+  click6()
 }
