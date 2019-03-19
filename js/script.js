@@ -27,6 +27,7 @@ function docKeyUp (e) {
     click6()
   } else if (e.keyCode === 13) {
     getSum()
+  } 
  }
 document.addEventListener('keyup', docKeyUp, false)
 
