@@ -1,5 +1,6 @@
 # flipcount
 A tiny counter for flips of things which have 2-6 sides
+
 https://karl-beecken.de/flipcount
 
 ## Hotkeys:
